@@ -32,7 +32,7 @@ body {
   color: var(--foreground);
 
   font-family:
-    var(--font-inter),
+    var(--font-geist-sans),
     Arial,
     Helvetica,
     sans-serif;
@@ -98,4 +98,18 @@ a {
   pointer-events: none;
 
   opacity: .04;
+}
+/* Hero background */
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+
+  background:
+    radial-gradient(
+      circle at 50% 20%,
+      rgba(155, 107, 255, 0.25),
+      transparent 60%
+    );
 }
