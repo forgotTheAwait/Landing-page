@@ -1,36 +1,185 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# ✨ Alireza's Portfolio
 
-First, run the development server:
+A modern, minimal developer portfolio built with **Next.js**, **TypeScript**, and **Tailwind CSS**.
+
+Designed with performance, clean aesthetics, and smooth interactions in mind.
+
+<p>
+  <a href="https://akbaridev.ir">
+    <img src="https://img.shields.io/badge/🌐_Live_Website-akbaridev.ir-8B5CF6?style=for-the-badge" />
+  </a>
+
+  <a href="https://github.com/forgotTheAwait/Landing-page">
+    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" />
+  </a>
+
+  <a href="https://github.com/forgotTheAwait/Landing-page/stargazers">
+    <img src="https://img.shields.io/github/stars/forgotTheAwait/Landing-page?style=for-the-badge" />
+  </a>
+</p>
+
+<p>
+  <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=nextdotjs" />
+  <img src="https://img.shields.io/badge/React-19-149ECA?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript" />
+  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss" />
+  <img src="https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer" />
+</p>
+
+</div>
+
+---
+
+# 📸 Preview
+
+<p align="center">
+<img src="./assets/readme/home.png" alt="Portfolio Homepage" width="100%">
+</p>
+
+---
+
+# ✨ Features
+
+- 🎨 Modern & minimal UI
+- ⚡ Built with Next.js 15
+- 🎭 Smooth page animations
+- 📱 Fully responsive
+- 🌙 Dark theme
+- 🚀 Optimized for performance
+- 🧩 Reusable components
+- 💼 Project showcase
+- 📬 Contact section
+- 🎯 Clean typography
+
+---
+
+# 🖼 Gallery
+
+<table>
+<tr>
+<td width="50%">
+
+### 💼 Projects
+
+<img src="./assets/readme/Projects.png">
+
+</td>
+
+<td width="50%">
+
+### 👨‍💻 About
+
+<img src="./assets/readme/About.png">
+
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+
+### 📬 Contact
+
+<img src="./assets/readme/Contact.png">
+
+</td>
+</tr>
+</table>
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| Framework | Next.js 15 |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Animations | Framer Motion • GSAP |
+| Deployment | Vercel |
+
+---
+
+# 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/forgotTheAwait/Landing-page.git
+```
+
+Move into the project
+
+```bash
+cd Landing-page
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+# 📂 Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```text
+.
+├── app/
+├── components/
+├── public/
+├── assets/
+│   └── readme/
+│       ├── home.png
+│       ├── projects.png
+│       ├── about.png
+│       └── contact.png
+├── lib/
+└── README.md
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 🎯 Goals
 
-## Deploy on Vercel
+This portfolio was built to showcase my work while focusing on:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Clean design
+- Responsive layouts
+- Performance
+- Smooth user experience
+- Modern web technologies
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+# ⭐ Support
+
+If you enjoyed this project, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates me to keep building.
+
+---
+
+<div align="center">
+
+### 🌐 Live Website
+
+https://akbaridev.ir
+
+Made with ❤️ by **Alireza**
+
+</div>
