@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center py-32"
+      className="min-h-screen flex items-center bg-black py-32"
     >
       <div className="mx-auto w-[90%] max-w-7xl">
 
@@ -39,16 +39,6 @@ export default function About() {
               Python, APIs, databases, system design
             </p>
           </div>
-
-          <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-6 backdrop-blur-xl">
-            <h3 className="text-xl font-semibold">
-              Philosophy
-            </h3>
-            <p className="mt-3 text-zinc-400">
-              Clean code, good design, constant improvement
-            </p>
-          </div>
-
         </div>
 
       </div>

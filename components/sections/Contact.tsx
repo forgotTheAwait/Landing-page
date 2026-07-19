@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="min-h-screen flex items-center py-32"
+      className="min-h-screen flex items-center bg-black py-32"
     >
       <div className="mx-auto w-[90%] max-w-7xl">
 

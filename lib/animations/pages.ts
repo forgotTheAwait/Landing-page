@@ -10,29 +10,15 @@ export function animatePages() {
     if (index === pages.length - 1) return;
 
     gsap.to(page, {
-      scale: 0.92,
-      y: -80,
-      opacity: 0,
-      filter: "blur(10px)",
+      scale: 0.94,
+      y: -60,
+      opacity: 0.35,
+      ease: "none",
       scrollTrigger: {
         trigger: page,
         start: "top top",
         end: "bottom top",
         scrub: true,
-      },
-    });
-  });
-
-  gsap.utils.toArray<HTMLElement>(".page").forEach((page) => {
-    gsap.from(page, {
-      y: 80,
-      opacity: 0,
-      filter: "blur(10px)",
-      duration: 1,
-      ease: "power4.out",
-      scrollTrigger: {
-        trigger: page,
-        start: "top 80%",
       },
     });
   });

@@ -24,7 +24,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative flex min-h-[100svh] items-center overflow-visible pt-24">
+    <section className="relative flex min-h-[100svh] items-center overflow-visible bg-black pt-24">
 
       <div className="pointer-events-none absolute inset-0 z-0">
         <div
@@ -56,9 +56,13 @@ export default function Hero() {
 
         <div className="hero-buttons mt-12 flex flex-wrap gap-4">
 
-          <button className="rounded-full bg-white px-7 py-3 font-semibold text-black transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(255,255,255,0.25)]">
+          <a
+            href="#projects"
+            className="inline-flex items-center justify-center rounded-full bg-white px-7 py-3 font-semibold transition-all duration-300 hover:scale-105 hover:shadow-[0_0_40px_rgba(255,255,255,0.25)]"
+            style={{ color: "#000" }}
+          >
             View Projects
-          </button>
+          </a>
 
           <button className="rounded-full border border-zinc-700 px-7 py-3 font-semibold transition-all duration-300 hover:border-white hover:bg-white/5">
             GitHub

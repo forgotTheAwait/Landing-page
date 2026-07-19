@@ -51,7 +51,7 @@ export default function Projects() {
   return (
     <section
     id="projects"
-    className="min-h-screen flex items-center py-32"
+    className="min-h-screen flex items-center bg-black py-32"
     >
       <div className="mx-auto w-[90%] max-w-7xl">
 
